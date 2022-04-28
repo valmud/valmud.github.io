@@ -1,4 +1,4 @@
-function check(){
+function check(lang){
 
     //wielokrotny wybor do naprawy
     let points = 0;
@@ -99,8 +99,12 @@ function check(){
     if(degree>9){
         range=0;
     }
+    if(lang === 1){document.getElementById("degree").innerHTML="Балів: "+ points + ". Оцінка: "+ degree;}
+    if(lang === 2){document.getElementById("punktacja").innerHTML="Punktów: "+ points + ". Ocena: "+ degree;}
 
-    document.getElementById("degree").innerHTML="Балів: "+ points + ". Оцінка: "+ degree;
+
+
+
     document.getElementById("gif").src=pictures[range];
 
 
