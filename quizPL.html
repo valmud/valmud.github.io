@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytuł</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/647a9c32de.js" crossorigin="anonymous"></script>
+    <script src="quiz.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="indexPL.html">GŁÓWNA</a>
+    <div class="dropdown">
+        <button class="dropbtn">PROGRAMY
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="programsPL.html#Paint">Paint</a>
+            <a href="programsPL.html#GIMP">GIMP</a>
+            <a href="programsPL.html#SAI">Paint Tool SAI</a>
+            <a href="programsPL.html#Blender">Blender</a>
+        </div>
+    </div>
+    <a class="active" href="quizPL.html">QUIZ</a>
+    <a href="galeriaPL.html">GALERIA</a>
+    <a href="contactPL.html">KONTAKT</a>
+    <a class="flag" href="quiz.html"><img src="img/ua.png" alt="flag"></a>
+</div>
+<main>
+    <br>
+    <h1>QUIZ</h1>
+    <br>
+    <form id = "quiz" name = "quiz">
+        <hr> <p>1. Czego uczy grafika komputerowa? </p>
+            <input type = "radio" name = "p1" value = "a"> a) sposoby tworzenia i przetwarzania tekstów <br>
+            <input type = "radio" name = "p1" value = "b"> b) programy do tworzenia wykresów <br>
+            <input type = "radio" name = "p1" value = "c"> c) sposoby tworzenia i przetwarzania obrazów graficznych <br>
+            <input type = "radio" name = "p1" value = "d"> d) narzędzia do tworzenia gier komputerowych <br>
+        <hr> <p>2. Obraz bitmapowy składa się z... </p>
+            <input type = "radio" name = "p2" value = "a"> a) figury geometryczne <br>
+            <input type = "radio" name = "p2" value = "b"> b) piksele <br>
+            <input type = "radio" name = "p2" value = "c"> c) prymitywy graficzne <br>
+            <input type = "radio" name = "p2" value = "d"> d) kolory <br>
+        <hr> <p>3. Obraz wektorowy składa się z ... </p>
+            <input type = "radio" name = "p3" value = "a"> a) prymitywy (figury geometryczne) <br>
+            <input type = "radio" name = "p3" value = "b"> b) piksele <br>
+            <input type = "radio" name = "p3" value = "c"> c) kolory <br>
+            <input type = "radio" name = "p3" value = "d"> d) wektory <br>
+        <hr> <p>4. Właściwości obrazu rastrowego: </p>
+            <input type = "checkbox" name = "p4" value = "a"> a) rozmiar <br>
+            <input type = "checkbox" name = "p4" value = "b"> b) głębia kolorów <br>
+            <input type = "checkbox" name = "p4" value = "c"> c) formularz <br>
+            <input type = "checkbox" name = "p4" value = "d"> d) rozdzielczość <br>
+        <hr> <p>5. Właściwości grafiki wektorowej: </p>
+            <input type = "checkbox" name = "p5" value = "a"> a) rozdzielczość <br>
+            <input type = "checkbox" name = "p5" value = "b"> b) liczba kolorów <br>
+            <input type = "checkbox" name = "p5" value = "c"> c) typ i liczba prymitywów <br>
+            <input type = "checkbox" name = "p5" value = "d"> d) głębia kolorów <br>
+        <hr> <p>6. Główna wada grafiki wektorowej: </p>
+            <input type = "radio" name = "p6" value = "a"> a) obraz trudny do edycji <br>
+            <input type = "radio" name = "p6" value = "b"> b) trudne do skalowania <br>
+            <input type = "radio" name = "p6" value = "c"> c) "nienaturalność" obrazu <br>
+            <input type = "radio" name = "p6" value = "d"> d) zajmuje dużo pamięci <br>
+        <hr> <p>7. Główna zaleta grafiki wektorowej: </p>
+            <input type = "radio" name = "p7" value = "a"> a) mały rozmiar pliku <br>
+            <input type = "radio" name = "p7" value = "b"> b) realistyczny obraz <br>
+            <input type = "radio" name = "p7" value = "c"> c) utrzymanie jakości po przeskalowaniu obrazu <br>
+            <input type = "radio" name = "p7" value = "d"> d) możesz obrócić obraz <br>
+        <hr> <p>8. Określ obiekty, które są obrazami graficznymi </p>
+            <input type = "checkbox" name = "p8" value = "a"> а) графики <br>
+            <input type = "checkbox" name = "p8" value = "b"> b) rysunki <br>
+            <input type = "checkbox" name = "p8" value = "c"> c) szkice architektoniczne <br>
+            <input type = "checkbox" name = "p8" value = "d"> d) dokumenty tekstowe <br>
+        <hr> <p>9. Jakie kształty geometryczne są podstawą obrazu wektorowego?</p>
+            <input type = "checkbox" name = "p9" value = "a"> a) Linia prosta <br>
+            <input type = "checkbox" name = "p9" value = "b"> b) Kwadrat <br>
+            <input type = "checkbox" name = "p9" value = "c"> c) Kółko <br>
+            <input type = "checkbox" name = "p9" value = "d"> d) Trójkąt <br>
+            <input type = "checkbox" name = "p9" value = "e"> e) Okno <br>
+        <hr> <p>10. Które z poniższych nie jest celem edytora grafiki: </p>
+            <input type = "radio" name = "p10" value = "a"> a) zapisz obrazy <br>
+            <input type = "radio" name = "p10" value = "b"> b) sprawdzanie pisowni <br>
+            <input type = "radio" name = "p10" value = "c"> c) edytuj obrazy <br>
+            <input type = "radio" name = "p10" value = "d"> d) tworzenie wielokolorowych obrazów <br>
+        <hr> <p>11. Co służy do wyświetlania grafiki? </p>
+            <input type = "radio" name = "p11" value = "a"> а) MONITOR <br>
+            <input type = "radio" name = "p11" value = "b"> b) kamera internetowa <br>
+            <input type = "radio" name = "p11" value = "c"> c) skaner <br>
+            <input type = "radio" name = "p11" value = "d"> d) głośniki <br>
+        <hr> <p>12. Do tworzenia i przetwarzania obrazów komputerowych używane są specjalne programy </p>
+            <input type = "radio" name = "p12" value = "a"> a) edytory tekstu <br>
+            <input type = "radio" name = "p12" value = "b"> b) edytorzy muzyki <br>
+            <input type = "radio" name = "p12" value = "c"> c) edytory graficzne <br>
+            <input type = "radio" name = "p12" value = "d"> d) środowiska oprogramowania <br>
+        <hr> <p>13. Który klawisz powinienem trzymać, aby narysować kwadrat za pomocą narzędzia Prostokąt? </p>
+            <input type = "radio" name = "p13" value = "a"> а) Shift <br>
+            <input type = "radio" name = "p13" value = "b"> b) Ctrl <br>
+            <input type = "radio" name = "p13" value = "c"> c) Tab <br>
+            <input type = "radio" name = "p13" value = "d"> d) Backspace <br>
+        <hr> <p>14. Które z poniższych plików są powiązane pliki graficzne: </p>
+            <input type = "checkbox" name = "p14" value = "a"> a) rysunok.bmp <br>
+            <input type = "checkbox" name = "p14" value = "b"> b) rysunok.doc <br>
+            <input type = "checkbox" name = "p14" value = "c"> c) rysunok.jpg <br>
+            <input type = "checkbox" name = "p14" value = "d"> d) rysunok.png <br>
+        <hr> <p>15. W zależności od konstrukcji obrazu graficznego rozróżnia się następujące typy obrazów </p>
+            <input type = "checkbox" name = "p15" value = "a"> а) wektor <br>
+            <input type = "checkbox" name = "p15" value = "b"> b) wideo <br>
+            <input type = "checkbox" name = "p15" value = "c"> c) fotograficzny <br>
+            <input type = "checkbox" name = "p15" value = "d"> d) raster <br>
+        <hr> <p>16. Piksel w grafice komputerowej to... </p>
+            <input type = "radio" name = "p16" value = "a"> а) nazwa kanału TV <br>
+            <input type = "radio" name = "p16" value = "b"> b) element pulpitu <br>
+            <input type = "radio" name = "p16" value = "c"> c) jednostka obrazu rastrowego <br>
+        <hr> <p>17. Nazwij rodzaje grafiki komputerowej: </p>
+            <input type = "checkbox" name = "p17" value = "a"> a) wektor <br>
+            <input type = "checkbox" name = "p17" value = "b"> b) prymitywny <br>
+            <input type = "checkbox" name = "p17" value = "c"> c) raster <br>
+            <input type = "checkbox" name = "p17" value = "d"> d) mozaika <br>
+        <hr> <p>18. Zalety obrazów rastrowych: </p>
+            <input type = "checkbox" name = "p18" value = "a"> a) Dobrze odtwarza częściowe cienie <br>
+            <input type = "checkbox" name = "p18" value = "b"> b) płynne przejścia między kolorami <br>
+            <input type = "checkbox" name = "p18" value = "c"> c) realistyczny obraz <br>
+            <input type = "checkbox" name = "p18" value = "d"> d) mały rozmiar obrazu <br>
+        <hr> <p>19. Wady grafiki rastrowej: </p>
+            <input type = "checkbox" name = "p19" value = "a"> a) nienaturalność rysunku <br>
+            <input type = "checkbox" name = "p19" value = "b"> b) słabo odtworzona półcień <br>
+            <input type = "checkbox" name = "p19" value = "c"> c) duże pliki do przechowywania obrazów rastrowych <br>
+            <input type = "checkbox" name = "p19" value = "d"> d) utrata jakości obrazu podczas zwiększania lub zmniejszania jego rozmiaru <br>
+        <hr> <p>20. Grafika komputerowa to </p>
+            <input type = "radio" name = "p20" value = "a"> a) zestaw narzędzi i metod tworzenia i obróbki grafiki za pomocą komputera <br>
+            <input type = "radio" name = "p20" value = "b"> b) zbiór prymitywów graficznych, z których tworzony jest obraz graficzny przy użyciu technologii komputerowej <br>
+            <input type = "radio" name = "p20" value = "c"> c) zbiór pikseli, z którego tworzony jest obraz graficzny przy użyciu technologii komputerowej <br>
+        <hr> <p>21. Wybierz wszystkie możliwe urządzenia do grafiki komputerowej </p>
+            <input type = "checkbox" name = "p21" value = "a"> а) cидеокарта <br>
+            <input type = "checkbox" name = "p21" value = "b"> b) monitor <br>
+            <input type = "checkbox" name = "p21" value = "c"> c) głośnik <br>
+            <input type = "checkbox" name = "p21" value = "d"> d) принтер <br>
+            <input type = "checkbox" name = "p21" value = "e"> e) tablet graficzny <br>
+            <input type = "checkbox" name = "p21" value = "f"> f) mikrofon <br>
+            <input type = "checkbox" name = "p21" value = "g"> g) edytor graficzny <br>
+        <hr> <p>22. Mapa bitowa to </p>
+            <input type = "radio" name = "p22" value = "a"> a) obraz utworzony przez linie <br>
+            <input type = "radio" name = "p22" value = "b"> b) obraz utworzony za pomocą graficznych prymitywów <br>
+            <input type = "radio" name = "p22" value = "c"> c) obraz utworzony z pikseli o odpowiednich kolorach <br>
+        <hr> <p>23. To jest grafika wektorowa </p>
+            <input type = "radio" name = "p23" value = "a"> a) obraz utworzony za pomocą pikseli <br>
+            <input type = "radio" name = "p23" value = "b"> b) obraz utworzony z prostych obiektów <br>
+            <input type = "radio" name = "p23" value = "c"> c) obraz utworzony za pomocą rastra <br>
+        <hr> <p>24. Edytor grafiki wektorowej, z którym pracowałeś na lekcjach informatyki </p>
+            <input type = "radio" name = "p24" value = "a"> а) Adobe Illustrator <br>
+            <input type = "radio" name = "p24" value = "b"> b) Paint <br>
+            <input type = "radio" name = "p24" value = "c"> c) Inkscape <br>
+            <input type = "radio" name = "p24" value = "d"> d) LibreOffice Draw <br>
+
+        <input type="button" onclick="check()" value="Sprawdź odpowiedzi">
+
+    </form>
+    <div id="output">
+        <p id="degree"></p>
+        <img id="gif">
+    </div>
+</main>
+
+<footer>Viktoriia Valevska, Mydrak Marina &copy; 2022</footer>
+</body>
+</html>

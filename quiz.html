@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytuł</title>
+    <link rel="stylesheet" href="style.css">
+    <meta class="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/647a9c32de.js" crossorigin="anonymous"></script>
+    <script src="quiz.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">ГОЛОВНА</a>
+    <div class="dropdown">
+        <button class="dropbtn">ПРОГРАМИ
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="programs.html#Paint">Paint</a>
+            <a href="programs.html#GIMP">GIMP</a>
+            <a href="programs.html#SAI">Paint Tool SAI</a>
+            <a href="programs.html#Blender">Blender</a>
+        </div>
+    </div>
+    <a class="active"  href="quiz.html">ВІКТОРИНА</a>
+    <a href="galeria.html">ГАЛЕРЕЯ</a>
+    <a href="contact.html">КОНТАКТНА</a>
+    <a class="flag" href="quiz.html"><img src="img/pl.png" alt="flag"></a>
+</div>
+
+<main>
+    <br>
+    <h1>QUIZ</h1>
+    <br>
+    <form id="quiz" name="quiz">
+        <hr><p>1. Що вивчає комп'ютерна графіка?</p>
+            <input type="radio" name="p1" value="a"> а) засоби створення та опрацювання текстів<br>
+            <input type="radio" name="p1" value="b"> б) програми для створення графіків<br>
+            <input type="radio" name="p1" value="c"> в) засоби створення та опрацювання графічних зображень<br>
+            <input type="radio" name="p1" value="d"> г) засоби для створення комп'ютерних ігор<br>
+        <hr><p>2. Растрове зображення складається з...</p>
+            <input type="radio" name="p2" value="a"> а) геометричних фігур<br>
+            <input type="radio" name="p2" value="b"> б) пікселів<br>
+            <input type="radio" name="p2" value="c"> в) графічних примітивів<br>
+            <input type="radio" name="p2" value="d"> г) кольорів<br>
+        <hr><p>3. Векторне зображення складається з...</p>
+            <input type="radio" name="p3" value="a"> а) примітивів (геометричних фігур)<br>
+            <input type="radio" name="p3" value="b"> б) пікселів<br>
+            <input type="radio" name="p3" value="c"> в) кольорів<br>
+            <input type="radio" name="p3" value="d"> г) векторів<br>
+        <hr><p>4. Властивості растрового зображення:</p>
+            <input type="checkbox" name="p4" value="a"> а) розмір<br>
+            <input type="checkbox" name="p4" value="b"> б) глибина кольору<br>
+            <input type="checkbox" name="p4" value="c"> в) форма<br>
+            <input type="checkbox" name="p4" value="d"> г) роздільність<br>
+        <hr><p>5. Властивості векторного зображення:</p>
+            <input type="checkbox" name="p5" value="a"> а) роздільність<br>
+            <input type="checkbox" name="p5" value="b"> б) кількість кольорів<br>
+            <input type="checkbox" name="p5" value="c"> в) тип та кількість примітивів<br>
+            <input type="checkbox" name="p5" value="d"> г) глибина кольору<br>
+        <hr><p>6. Головний недолік векторної графіки:</p>
+            <input type="radio" name="p6" value="a"> а) важко редагувати малюнок<br>
+            <input type="radio" name="p6" value="b"> б) важко масштабувати<br>
+            <input type="radio" name="p6" value="c"> в) "неприродність" малюнка<br>
+            <input type="radio" name="p6" value="d"> г) займає великий об'єм пам'яті<br>
+        <hr><p>7. Головна перевага векторної графіки:</p>
+            <input type="radio" name="p7" value="a"> а) невеликий розмір файла<br>
+            <input type="radio" name="p7" value="b"> б) реалістичність зображення<br>
+            <input type="radio" name="p7" value="c"> в) збереження якості після масштабування малюнка<br>
+            <input type="radio" name="p7" value="d"> г) можна обертати зображення<br>
+        <hr><p>8. Вказати об’єкти, які є графічними зображеннями</p>
+            <input type="checkbox" name="p8" value="a"> а) графіки<br>
+            <input type="checkbox" name="p8" value="b"> б) малюнки<br>
+            <input type="checkbox" name="p8" value="c"> в) архітектурні ескізи<br>
+            <input type="checkbox" name="p8" value="d"> г) текстові документи<br>
+        <hr><p>9. Які геометричні фігури є основою векторного зображення?</p>
+            <input type="checkbox" name="p9" value="a"> а) Пряма лінія<br>
+            <input type="checkbox" name="p9" value="b"> б) Квадрат<br>
+            <input type="checkbox" name="p9" value="c"> в) Коло<br>
+            <input type="checkbox" name="p9" value="d"> г) Трикутник<br>
+            <input type="checkbox" name="p9" value="e"> д) Вікно<br>
+        <hr><p>10. Що з поданого не є призначенням графічного редактора:</p>
+            <input type="radio" name="p10" value="a"> а) збереження зображень<br>
+            <input type="radio" name="p10" value="b"> б) перевірка правопису<br>
+            <input type="radio" name="p10" value="c"> в) редагування зображень<br>
+            <input type="radio" name="p10" value="d"> г) створення різнокольорових малюнків<br>
+        <hr><p>11. Що використовують для виведення графічних зображень?</p>
+            <input type="radio" name="p11" value="a"> а) монітор<br>
+            <input type="radio" name="p11" value="b"> б) веб-камера<br>
+            <input type="radio" name="p11" value="c"> в) сканер<br>
+            <input type="radio" name="p11" value="d"> г) звукові колонки<br>
+        <hr><p>12. Для створення та опрацювання комп'ютерних зображень використовують спеціальні програми </p>
+            <input type="radio" name="p12" value="a"> а) текстові редактори<br>
+            <input type="radio" name="p12" value="b"> б) музичні редактори<br>
+            <input type="radio" name="p12" value="c"> в) графічні редактори<br>
+            <input type="radio" name="p12" value="d"> г) програмні середовища<br>
+        <hr><p>13. Яку клавішу слід утримувати для малювання квадрата за допомогою інструмента Прямокутник? </p>
+            <input type="radio" name="p13" value="a"> а) Shift<br>
+            <input type="radio" name="p13" value="b"> б) Ctrl<br>
+            <input type="radio" name="p13" value="c"> в) Tab<br>
+            <input type="radio" name="p13" value="d"> г) Backspace<br>
+        <hr><p>14. Які з наведених файлів відносяться до графічних файлів:</p>
+            <input type="checkbox" name="p14" value="a"> а) rysunok.bmp<br>
+            <input type="checkbox" name="p14" value="b"> б) rysunok.doc<br>
+            <input type="checkbox" name="p14" value="c"> в) rysunok.jpg<br>
+            <input type="checkbox" name="p14" value="d"> г) rysunok.png<br>
+        <hr><p>15. Залежно від побудови графічного зображення розрізняють такі види зображень </p>
+            <input type="checkbox" name="p15" value="a"> а) векторні<br>
+            <input type="checkbox" name="p15" value="b"> б) відеографічні<br>
+            <input type="checkbox" name="p15" value="c"> в) фотографічні<br>
+            <input type="checkbox" name="p15" value="d"> г) растрові<br>
+        <hr><p>16. Піксель у комп'ютерній графіці - це...</p>
+            <input type="radio" name="p16" value="a"> а) назва телеканалу<br>
+            <input type="radio" name="p16" value="b"> б) елемент на робочому столі<br>
+            <input type="radio" name="p16" value="c"> в) одиниця растрового зображення<br>
+        <hr><p>17. Назвати види комп'ютерної графіки:</p>
+            <input type="checkbox" name="p17" value="a"> а) векторна<br>
+            <input type="checkbox" name="p17" value="b"> б) примітивна<br>
+            <input type="checkbox" name="p17" value="c"> в) растрова<br>
+            <input type="checkbox" name="p17" value="d"> г) мозаїчна<br>
+        <hr><p>18. Переваги растрових зображень:</p>
+            <input type="checkbox" name="p18" value="a"> а) Добре відтворюють напівтіні<br>
+            <input type="checkbox" name="p18" value="b"> б) плавні переходи між кольорами<br>
+            <input type="checkbox" name="p18" value="c"> в) реалістичність зображення<br>
+            <input type="checkbox" name="p18" value="d"> г) малий розмір зображення<br>
+        <hr><p>19. Недоліки растрової графіки:</p>
+            <input type="checkbox" name="p19" value="a"> а) неприродність малюнка<br>
+            <input type="checkbox" name="p19" value="b"> б) погано відтворюються напівтіні<br>
+            <input type="checkbox" name="p19" value="c"> в) великі за обсягом файли для зберігання растрових зображень<br>
+            <input type="checkbox" name="p19" value="d"> г) втрата якості зображення при збільшенні або зменшенні його розміру<br>
+        <hr><p>20. Комп'ютерна графіка - це</p>
+            <input type="radio" name="p20" value="a"> а) сукупність засобів і методів створення та опрацювання графічних зображень за допомогою комп'ютера<br>
+            <input type="radio" name="p20" value="b"> б) набір графічних примітивів,з яких утворюється графічне зображення з використанням комп'ютерних технологій<br>
+            <input type="radio" name="p20" value="c"> в) набір пікселів, з яких утворюється графічне зображення з використанням комп'ютерних технологій<br>
+        <hr><p>21. Оберіть всі можливі апаратні засоби комп'ютерної графіки</p>
+            <input type="checkbox" name="p21" value="a"> а) відеокарта<br>
+            <input type="checkbox" name="p21" value="b"> б) монітор<br>
+            <input type="checkbox" name="p21" value="c"> в) динамік<br>
+            <input type="checkbox" name="p21" value="d"> г) принтер<br>
+            <input type="checkbox" name="p21" value="e"> д) графічний планшет<br>
+            <input type="checkbox" name="p21" value="f"> е) мікрофон<br>
+            <input type="checkbox" name="p21" value="g"> є) графічний редактор<br>
+        <hr><p>22. Растрове зображення - це</p>
+            <input type="radio" name="p22" value="a"> а) зображення, яке створюється за допомогою ліній<br>
+            <input type="radio" name="p22" value="b"> б) зображення, яке створюється за допомогою графічних примітивів<br>
+            <input type="radio" name="p22" value="c"> в) зображення, яке створюється за допомогою пікселів відповідних кольорів<br>
+        <hr><p>23. Векторне зображення -це</p>
+            <input type="radio" name="p23" value="a"> а) зображення, яке створюється за допомогою пікселів<br>
+            <input type="radio" name="p23" value="b"> б) зображення, яке створюється за допомогою простих об'єктів<br>
+            <input type="radio" name="p23" value="c"> в) зображення, яке створюється за допомогою растри<br>
+        <hr><p>24. Векторний графічний редактор, з яким працювали на уроках інформатики </p>
+            <input type="radio" name="p24" value="a"> а) Adobe Illustrator<br>
+            <input type="radio" name="p24" value="b"> б) Paint<br>
+            <input type="radio" name="p24" value="c"> в) Inkscape<br>
+            <input type="radio" name="p24" value="d"> г) LibreOffice Draw<br>
+
+        <input type="button" onclick="check()" value="Перевірити відповіді">
+
+    </form>
+    <div id="output">
+        <p id="degree"></p>
+        <img id="gif">
+    </div>
+
+
+</main>
+
+<footer>Валевска Вікторііа, Мидрак Маріна &copy; 2022</footer>
+</body>
+</html>
